@@ -1,0 +1,9 @@
+.cm-contentContainer,
+p {
+  --p-spacing: 1em;
+}
+
+/* for Live Preview */
+.cm-line:has(> br:only-child) {
+  height: var(--p-spacing);
+}

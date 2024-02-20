@@ -1,0 +1,16 @@
+/* Tweets */
+
+.callout[data-callout="tweet"] {
+  --callout-color: 29, 161, 242;
+  --callout-icon: lucide-twitter;
+}
+
+.callout[data-callout="tweet"] > .callout-title > .callout-icon > svg {
+  fill: currentColor;
+  stroke-width: 0;
+}
+
+.callout[data-callout="tweet"] > .callout-content cite {
+  font-size: var(--font-adaptive-small);
+  font-style: normal;
+}

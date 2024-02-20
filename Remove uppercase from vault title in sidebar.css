@@ -1,0 +1,5 @@
+body:not(.is-mobile) .nav-folder.mod-root>.nav-folder-title .nav-folder-title-content {
+    text-transform: none;
+    letter-spacing: 0em;
+    color: var(--text-faint);
+}

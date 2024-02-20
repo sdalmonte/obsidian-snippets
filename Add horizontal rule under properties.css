@@ -1,0 +1,4 @@
+.metadata-container {
+    --metadata-padding: var(--size-4-2) 0 var(--size-4-4);
+    border-bottom: var(--divider-width) solid var(--divider-color);
+}

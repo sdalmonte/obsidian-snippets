@@ -1,0 +1,15 @@
+.markdown-source-view:not(.is-live-preview),
+.markdown-reading-view,
+.mod-header,
+.view-header,
+.inline-title,
+.metadata-container,
+.callout-title,
+table.dataview,
+.callout[data-callout="tweet"] {
+  font-family: var(--font-interface);
+}
+
+.cm-contentContainer {
+  font-family: var(--font-editor);
+}
