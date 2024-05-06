@@ -3,6 +3,7 @@
 .callout[data-callout="tweet"] {
   --callout-color: 29, 161, 242;
   --callout-icon: lucide-twitter;
+  padding-inline-end: var(--size-4-6);
 }
 
 .callout[data-callout="tweet"] > .callout-title > .callout-icon > svg {
@@ -13,4 +14,10 @@
 .callout[data-callout="tweet"] > .callout-content cite {
   font-size: var(--font-adaptive-small);
   font-style: normal;
+}
+
+.callout[data-callout="tweet"]
+  > .callout-content
+  p:has(cite:only-child):last-child {
+  margin-block-end: var(--size-4-3);
 }
